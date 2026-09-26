@@ -1,0 +1,167 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    font-family: 'Segoe UI', Arial, sans-serif;
+    background-color: #f4f6f8;
+    color: #2c3e50;
+}
+
+.contenedor {
+    max-width: 900px;
+    margin: 40px auto;
+    padding: 30px;
+    background-color: #ffffff;
+    border-radius: 8px;
+    box-shadow: 0 1px 4px rgba(0, 0, 0, 0.1);
+}
+
+h1 {
+    font-size: 22px;
+    margin-top: 0;
+    margin-bottom: 20px;
+    color: #1f2d3d;
+    border-bottom: 2px solid #e1e5ea;
+    padding-bottom: 12px;
+}
+
+.btn {
+    display: inline-block;
+    padding: 8px 16px;
+    border-radius: 4px;
+    text-decoration: none;
+    font-size: 14px;
+    border: none;
+    cursor: pointer;
+}
+
+.btn-primary {
+    background-color: #2c6bed;
+    color: #ffffff;
+}
+
+.btn-primary:hover {
+    background-color: #1d54c4;
+}
+
+.btn-danger {
+    background-color: #dc3545;
+    color: #ffffff;
+}
+
+.btn-danger:hover {
+    background-color: #b02a37;
+}
+
+.btn-link {
+    background: none;
+    color: #2c6bed;
+    padding: 8px 10px;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+}
+
+th, td {
+    padding: 10px 12px;
+    text-align: left;
+    border-bottom: 1px solid #e1e5ea;
+    font-size: 14px;
+    word-break: break-word;
+}
+
+th {
+    background-color: #f0f2f5;
+    font-weight: 600;
+    color: #444;
+}
+
+tr:hover {
+    background-color: #f9fafb;
+}
+
+.acciones a, .acciones button {
+    margin-right: 6px;
+    font-size: 13px;
+}
+
+.form-usuario {
+    max-width: 380px;
+}
+
+.form-group {
+    margin-bottom: 16px;
+}
+
+label {
+    display: block;
+    margin-bottom: 6px;
+    font-size: 14px;
+    font-weight: 600;
+    color: #333;
+}
+
+input[type="text"],
+input[type="email"],
+input[type="date"] {
+    width: 100%;
+    padding: 9px 10px;
+    border: 1px solid #ccd2d8;
+    border-radius: 4px;
+    font-size: 14px;
+}
+
+input:focus {
+    outline: none;
+    border-color: #2c6bed;
+}
+
+.error-msg {
+    color: #dc3545;
+    font-size: 13px;
+    margin-top: 4px;
+}
+
+.alert {
+    padding: 12px 16px;
+    border-radius: 4px;
+    margin-bottom: 20px;
+    font-size: 14px;
+}
+
+.alert-success {
+    background-color: #e6f7ec;
+    color: #1e7e34;
+    border: 1px solid #bfe6cc;
+}
+
+.info-item {
+    padding: 8px 0;
+    border-bottom: 1px solid #eee;
+    font-size: 14px;
+}
+
+.info-item strong {
+    display: inline-block;
+    width: 150px;
+    color: #555;
+}
+
+.top-actions {
+    margin-bottom: 15px;
+}
+
+.form-actions {
+    margin-top: 20px;
+}
+
+.volver {
+    display: inline-block;
+    margin-top: 15px;
+    font-size: 14px;
+}
